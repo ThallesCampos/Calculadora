@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div class="video-fundo">
+        <video autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2022/11/14/138962-770800093_large.mp4" type="video/mp4">
+            <source src="https://cdn.pixabay.com/video/2017/11/02/12716-241674181_large.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+    <header>
+        <h1>Calculadora</h1>
+        <button class="theme" onclick="theme()">
+            <img src="https://cdn-icons-png.flaticon.com/512/5261/5261958.png" alt="">
+        </button>
+    </header>
+
+    <div id="calculator">
+        <input type="text" name="" id="display" disabled>
+        <br>
+
+        <button id="ac" class="operador">AC</button>
+        <button id="de" class="operador">BKSP</button>
+        <button id="." class="operador">.</button>
+        <button id="/" class="operador">/</button>
+        <br>
+
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="*" class="operador">X</button>
+        <br>
+
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="-" class="operador">-</button>
+        <br>
+
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="+" class="operador">+</button>
+        <br>
+
+        <button id="00">00</button>
+        <button id="0">0</button>
+        <button id=",">,</button>
+        <button id="=" class="operador igual">=</button>
+        <br>
+
+    </div>
+
+    <footer>
+        <p>
+            IOS | &copy; TODOS OS DIREITOS RESERVADOS | 2024
+        </p>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
